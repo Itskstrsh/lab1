@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class Lab1 {
     public static void main(String[] args) {
         short[] c = {3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19};//1 task
