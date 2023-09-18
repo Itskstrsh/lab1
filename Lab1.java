@@ -14,10 +14,10 @@ public class Lab1 {
                     dvmass[i][j] = Math.sin(Math.sin(Math.tan(x[j])));
                 }
                 else if(c[i]==5 || c[i]==6 || c[i]==8 || c[i]==10 || c[i]==13 || c[i]==15 || c[i]==19) {
-                    dvmass[i][j]= Math.pow((Math.pow((3*Math.pow(x[j],1%3)),3)),1%3);
+                    dvmass[i][j]= Math.pow((Math.pow((3*Math.pow(x[j],1/3)),3)),1/3);
                 }
                 else{
-                    dvmass[i][j] = Math.sin(0.25*(Math.cos(Math.exp(x[j]))+3%4));
+                    dvmass[i][j] = Math.sin(0.25*(Math.cos(Math.exp(x[j]))+3/4));
                 }//3 task
             }
         }
